@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_home_r_comps",
+  "info": {
+    "displayName": "RComp"
+  },
+  "options": {},
+  "attributes": {
+    "rightImg1": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "rightImg2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "letterImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "cardText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.card-text-button"
+    }
+  }
+}

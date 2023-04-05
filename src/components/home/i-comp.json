@@ -1,0 +1,64 @@
+{
+  "collectionName": "components_home_i_comps",
+  "info": {
+    "displayName": "IComp"
+  },
+  "options": {},
+  "attributes": {
+    "letterImgLeft": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "letterImgRight": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "cardTextFirst": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.card-text-button"
+    },
+    "cardTextSecond": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.card-text-button"
+    },
+    "bottomImg1": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "bottomImg2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "bottomImg3": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.button"
+    }
+  }
+}
