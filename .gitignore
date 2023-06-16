@@ -106,6 +106,10 @@ coverage
 # Strapi
 ############################
 
+<<<<<<< HEAD
+=======
+.env
+>>>>>>> origin/main
 license.txt
 exports
 *.cache
