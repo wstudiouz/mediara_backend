@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_e_comps",
+  "info": {
+    "displayName": "EComp"
+  },
+  "options": {},
+  "attributes": {
+    "leftImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "cardText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.card-text-button"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.button"
+    },
+    "letterImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_about_productions",
+  "info": {
+    "displayName": "Production"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "img1": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "img2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "factory": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.card-text-button",
+      "required": true
+    }
+  }
+}

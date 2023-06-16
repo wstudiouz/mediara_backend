@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_letters",
+  "info": {
+    "displayName": "Letter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "over": {
+      "type": "text",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true,
+      "maxLength": 2,
+      "minLength": 1,
+      "unique": false
+    },
+    "shortKey": {
+      "type": "string",
+      "required": true,
+      "maxLength": 3,
+      "minLength": 1
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_home_dcomps",
+  "info": {
+    "displayName": "Dcomp"
+  },
+  "options": {},
+  "attributes": {
+    "cardText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.card-text-button"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.button"
+    },
+    "letterImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "firstImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "secondImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

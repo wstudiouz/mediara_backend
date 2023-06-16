@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_about_warranties",
+  "info": {
+    "displayName": "Warranty",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "warranty": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.card-text-button",
+      "required": true
+    },
+    "supCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "custom-components.single-image"
+    },
+    "supCard2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "custom-components.single-image",
+      "required": true
+    },
+    "warrantyYearBg": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_home_a_comps",
+  "info": {
+    "displayName": "AComp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cardText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.card-text-button"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.button"
+    },
+    "rightText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.card-text-button"
+    }
+  }
+}

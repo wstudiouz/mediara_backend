@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_about_complexes",
+  "info": {
+    "displayName": "Complex"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "rightTopCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.card-text-button"
+    },
+    "rightBottomCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.card-text-button"
+    }
+  }
+}

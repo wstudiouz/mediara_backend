@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_custom_components_single_images",
+  "info": {
+    "displayName": "supCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "text",
+      "required": true
+    },
+    "sup": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 50,
+      "default": 1
+    }
+  }
+}

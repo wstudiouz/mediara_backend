@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "AboutPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.hero"
+    },
+    "Complex": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.complex"
+    },
+    "Warranty": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.warranty"
+    },
+    "Production": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.production"
+    },
+    "HandWork": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.hand-work"
+    }
+  }
+}

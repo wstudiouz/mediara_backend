@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_home_second_a_comps",
+  "info": {
+    "displayName": "SecondAComp"
+  },
+  "options": {},
+  "attributes": {
+    "leftImg1": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "leftImg2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "leftImg3": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "cardText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.card-text-button"
+    }
+  }
+}
