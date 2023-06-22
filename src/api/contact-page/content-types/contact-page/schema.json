@@ -39,6 +39,10 @@
     "phoneText": {
       "type": "text",
       "required": true
+    },
+    "mapUrl": {
+      "type": "string",
+      "required": true
     }
   }
 }
