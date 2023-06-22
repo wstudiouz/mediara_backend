@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "doors",
+  "info": {
+    "singularName": "door",
+    "pluralName": "doors",
+    "displayName": "Door",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "doors"
+    },
+    "mainImg": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "price": {
+      "type": "biginteger",
+      "required": true,
+      "min": "1",
+      "default": "1"
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true,
+      "minLength": 1
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "minLength": 5
+    }
+  }
+}
