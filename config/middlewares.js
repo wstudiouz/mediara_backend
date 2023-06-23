@@ -2,10 +2,11 @@ module.exports = [
   "strapi::errors",
   "strapi::security",
   {
-    name: "strapi::cors",
-    config: {
-      origin: ["https://madeira.netlify.app"],
-      methods: ["GET"],
+    settings: {
+      cors: {
+        enabled: true,
+        origin: ["*"],
+      },
     },
   },
   "strapi::poweredBy",
