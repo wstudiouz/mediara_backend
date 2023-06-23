@@ -4,5 +4,5 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array("APP_KEYS"),
   },
-  url: env("URL", "https://madeira.netlify.app"),
+  url: env("PUBLIC_URL", "https://madeira.netlify.app"),
 });
