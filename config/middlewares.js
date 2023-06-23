@@ -5,7 +5,7 @@ module.exports = [
   {
     name: "strapi::cors",
     config: {
-      origin: ["https://madeira.netlify.app"],
+      origin: ["*"],
       methods: ["GET"],
       headers: ["Content-Type", "Authorization", "Origin", "Accept"],
       keepHeaderOnError: true,
