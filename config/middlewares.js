@@ -5,10 +5,15 @@ module.exports = [
   {
     name: "strapi::cors",
     config: {
-      origin: ["https://madeira.netlify.app"],
-      methods: ["GET", "POST", "PUT", "DELETE"],
+      origin: [
+        "https://example.com",
+        "https://subdomain.example.com",
+        "https://someotherwebsite.org",
+        "https://madeira.netlify.app",
+      ],
+      methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"],
       headers: ["Content-Type", "Authorization", "Origin", "Accept"],
-      keepHeadersOnError: true,
+      keepHeaderOnError: true,
     },
   },
   "strapi::logger",
